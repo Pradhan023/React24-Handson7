@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    padding: 5rem 0 0 8rem;
+}
+label{
+    font-size: xx-large;
+    font-weight: bold;
+}
+input{
+    height: 3rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-right: 5rem;
+}
+.newbtn{
+    display: flex;
+    justify-content: end;
+    margin:3rem 0 0 55rem;
+    justify-content: space-evenly;
+    width: fit-content;
+}
+.newbtn button{
+    font-size: xx-large;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: aliceblue;
+    margin: 0 2rem;
+}
+.newbtn button:hover{
+    color: white;
+    background-color: rgb(97, 97, 143);
+}

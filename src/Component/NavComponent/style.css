@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    margin: 5rem auto 0 auto;
+    text-align: center;
+}
+td{
+    border-bottom: 1px solid;
+    border-collapse: separate;
+    font-size: x-large;
+    padding: 1rem;
+}
+td:nth-child(odd)
+{
+    background-color: aliceblue;
+}
+td:hover{
+    background-color: rgb(97, 97, 143);
+    color: white;
+}
+.link:hover{
+    color: white;
+    text-decoration: none;
+}
+.Addbtn{
+    display: flex;
+    justify-content: right;
+}
+.Addbtn button{
+    padding: 1rem;
+    margin-right: 10rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: x-large;
+    background-color: aliceblue;
+}
+.Addbtn button:hover{
+    background-color: rgb(97, 97, 143);
+    color: white;
+}
